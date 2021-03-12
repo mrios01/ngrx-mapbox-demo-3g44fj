@@ -11,8 +11,8 @@ import { Observable } from "rxjs";
 })
 export class AppComponent {
   initialCenter = {
-    lat: 40.785091,
-    lng: -73.968285
+    lat: 32.7018967,
+    lng: -97.389306
   };
   initialZoom = 8;
   geoJSON$: Observable<any>;
