@@ -8,7 +8,7 @@ export class MyGeoJSONApiService {
 
   get(bbox: LngLatBounds) {
     return this.httpClient.get;
-    'https://api.maptiler.com/maps/eef16200-c4cc-4285-9370-c71ca24bb42d/sprite.json'();
+    "https://api.maptiler.com/maps/eef16200-c4cc-4285-9370-c71ca24bb42d/sprite.json"();
     //'https://opendata.arcgis.com/datasets/c57777877aa041ecaef98ff2519aabf6_44.geojson'
   }
 }
